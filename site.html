@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Topaze - Bijoux d'Exception</title>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="https://www.wilfrid-deydier.com/wp-content/uploads/2018/05/TOPAZE-IMPERIALE-9-.jpg" alt="Logo Topaze" class="logo-topaze" />
+    </div>
+    <div class="nav-center">
+      <span class="logo degrade">Topaze</span>
+    </div>
+    <div class="nav-links">
+      <a href="#page1" class="nav-btn">Accueil</a>
+      <a href="#nouveautes" class="nav-btn">Nouveautés</a>
+      <a href="#homme" class="nav-btn">Homme</a>
+      <a href="#femme" class="nav-btn">Femme</a>
+      <a href="#enfant" class="nav-btn">Enfant</a>
+      <a href="#histoire" class="nav-btn">Notre histoire</a>
+      <a href="#contact" class="nav-btn">Nous contacter</a>
+    </div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Rechercher" />
+      <span class="loupe">&#128269;</span>
+    </div>
+    <div id="user-icon" style="display:none;"></div>
+  </nav>
+
+  <!-- Accueil -->
+  <section id="page1" class="page">
+    <div class="bandeau">
+      <div class="titre">
+        <h2>-5% sur votre première commande avec le code BIENVENUE</h2>
+      </div>
+      <div class="panier-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="30" height="30" class="panier"/>
+        <span class="notification-bubble">3</span>
+      </div>
+    </div>
+    <div class="corps">
+      <div class="accueil-hero">
+        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Collection Topaze" class="hero-img" width="500">
+        <div class="hero-desc">
+          <h3>Bijoux d'exception pour chaque moment</h3>
+          <p>Découvrez notre collection exclusive de bijoux en topaze impériale, or et argent. <b>Nouveauté : Bague "Éclat Impérial" maintenant disponible !</b></p>
+          <a href="#nouveautes" class="add-panier">Découvrir</a>
+        </div>
+      </div>
+      
+      <div class="notification">
+        <p>🌟 Découvrez notre toute nouvelle bague "Topaze Royale" !</p>
+      </div>
+      
+      <div class="notification secondary">
+        <p>💎 N'oubliez pas de créer un compte pour bénéficier de vos avantages fidélité !</p>
+      </div>
+      
+      <div id="menu">
+        <a href="#homme" class="bouton">Collection Homme</a>
+        <a href="#femme" class="bouton">Collection Femme</a>
+        <a href="#enfant" class="bouton">Collection Enfant</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nouveautés -->
+  <section id="nouveautes" class="page" style="display:none;">
+    <div class="bandeau">
+      <h2>Nos Nouveautés</h2>
+    </div>
+    <div class="corps">
+      <div class="bijoux-grid">
+        <div class="photo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2GkymCjjceUkUjPv4Pxu443ICVSkfsYsxrA&s" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Bague "Éclat Impérial" - <b>349€</b></p>
+            <ul>
+              <li>Topaze impériale 8mm</li>
+              <li>Or 18 carats</li>
+              <li>Disponible en plusieurs tailles</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://m.media-amazon.com/images/I/31c3+kk5xfL._UF1000,1000_QL80_.jpg" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Collier "Lueur Dorée" - <b>279€</b></p>
+            <ul>
+              <li>Topaze impériale et diamants</li>
+              <li>Or blanc 18 carats</li>
+              <li>Longueur ajustable</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://www.1001-bijoux.fr/bracelet-en-argent-rhodie-chaine-avec-infini-topazes-bleu-et-oxydes-blancs-sertis-163cm-$$$020314C.jpg" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Bracelet "Infini" - <b>199€</b></p>
+            <ul>
+              <li>Alternance topaze et argent</li>
+              <li>Fermoir sécurisé</li>
+              <li>Longueur 18cm</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#page1" class="bouton">Retour à l'accueil</a>
+    </div>
+  </section>
+
+  <!-- Catégorie Homme -->
+  <section id="homme" class="page" style="display:none;">
+    <div class="bandeau">
+      <h2>Collection Homme</h2>
+    </div>
+    <div class="corps">
+      <div class="sous-categories">
+        <a href="#homme-colliers" class="bouton">Colliers</a>
+        <a href="#homme-bracelets" class="bouton">Bracelets</a>
+        <a href="#homme-bagues" class="bouton">Bagues</a>
+      </div>
+      <div class="notification">
+        <p>🔥 Nouveauté : Collection "Gentleman" disponible en exclusivité</p>
+      </div>
+      <a href="#page1" class="bouton">Retour à l'accueil</a>
+    </div>
+  </section>
+
+  <!-- Colliers Homme -->
+  <section id="homme-colliers" class="page" style="display:none;">
+    <div class="bandeau"><h2>Colliers Homme</h2></div>
+    <div class="corps">
+      <div class="bijoux-grid">
+        <div class="photo">
+          <img src="https://i.etsystatic.com/21729963/r/il/c29829/3719113910/il_570xN.3719113910_ofao.jpg" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Chaîne en or 18 carats - <b>225€</b></p>
+            <ul>
+              <li>Maille forçat revisitée</li>
+              <li>Longueur : 50 cm</li>
+              <li>Largeur : 3 mm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://bijoux-argent-france.fr/cdn/shop/products/chaine-grosse-maille-gourmette-argent-homme_1200x.jpg?v=1675542277" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Collier gourmette - <b>189€</b></p>
+            <ul>
+              <li>Argent 925</li>
+              <li>Longueur : 55 cm</li>
+              <li>Largeur : 5 mm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQmxrE0mnIx_LNcGXM_-6V-IaPLWbPL3rcpQJqHnGO9oorI-1nMagqXK_WkWRWYszD_401QubPDbfUmSV-mV65JzbRwf4A075DdX3nO8_hZ" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Maille gourmette épaisse - <b>150€</b></p>
+            <ul>
+              <li>Argent massif 925</li>
+              <li>Longueur : 50-60 cm</li>
+              <li>Largeur : 6-8 mm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://www.cdiscount.com/pdt2/7/0/9/1/700x700/auc8203489545709/rw/collier-homme-argent-chaine-mode-bijoux-homme-mul.jpg" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Maille figaro - <b>135€</b></p>
+            <ul>
+              <li>Argent 925</li>
+              <li>Longueur : 60 cm</li>
+              <li>Largeur : 4 mm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://orusbijoux.fr/wp-content/uploads/collier-homme-argent-grande-croix-rock.jpg" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Collier croix rock - <b>175€</b></p>
+            <ul>
+              <li>Acier inoxydable</li>
+              <li>Longueur : 60 cm</li>
+              <li>Pendentif croix</li>
+            </ul>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="https://img.bestdealplus.com/ae04/kf/H2b0422cfbab74c14ae4d01d03e45e7cd3.jpeg" class="toggle-desc"/>
+          <div class="description" style="display:none;">
+            <p>Pendentif barre - <b>120€</b></p>
+            <ul>
+              <li>Acier inoxydable</li>
+              <li>Longueur : 55 cm</li>
+              <li>Pendentif rectangulaire</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#homme" class="bouton">Retour à la collection Homme</a>
+    </div>
+  </section>
+
+  <!-- Bracelets Homme -->
+<section id="homme-bracelets" class="page" style="display:none;">
+  <div class="bandeau"><h2>Bracelets Homme</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw53d16dc1/images/FQBHJW0163-model0.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet en or jaune 18 carats - <b>1250€</b></p>
+          <ul>
+            <li>Or jaune 18 carats</li>
+            <li>Largeur : 6 mm</li>
+            <li>Longueur ajustable</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw9eee440c/images/FABHBW0231-model1.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet maille gourmette argent - <b>189€</b></p>
+          <ul>
+            <li>Argent 925 massif</li>
+            <li>Largeur : 8 mm</li>
+            <li>Longueur : 20 cm</li>
+            <li>Poids : 45 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://eternelparis.com/cdn/shop/articles/BLOG_4_b97520b3-c072-4bf1-b68b-8fe715a6eb7b.jpg?v=1592411603" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet cuir et acier - <b>145€</b></p>
+          <ul>
+            <li>Cuir véritable italien</li>
+            <li>Plaques en acier inoxydable</li>
+            <li>Largeur : 2,5 cm</li>
+            <li>Fermoir magnétique</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.ninanina.fr/wp-content/uploads/2023/11/n7830c-bracelet-homme-acier-et-noir-manchette-inoxydable-bijoux-bracelets-en-ligne-ninanina.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet manchette acier noir - <b>95€</b></p>
+          <ul>
+            <li>Acier inoxydable noir</li>
+            <li>Style manchette moderne</li>
+            <li>Largeur : 2 cm</li>
+            <li>Longueur ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwd68c6c66/images/FQIHJW0158-model0.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet or blanc et diamants - <b>2350€</b></p>
+          <ul>
+            <li>Or blanc 18 carats</li>
+            <li>12 diamants taille brillant</li>
+            <li>Largeur : 7 mm</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw298996dc/images/FIBHBAM003-model0.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet perles d'acier - <b>220€</b></p>
+          <ul>
+            <li>Acier inoxydable haut de gamme</li>
+            <li>Perles polies miroir</li>
+            <li>Diamètre perles : 8 mm</li>
+            <li>Fermoir à vis sécurisé</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#homme" class="bouton">Retour à la collection Homme</a>
+  </div>
+</section>
+
+  <!-- Bagues Homme -->
+<section id="homme-bagues" class="page" style="display:none;">
+  <div class="bandeau"><h2>Bagues Homme</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://orusbijoux.fr/wp-content/uploads/bague-homme-argent-ethnique-oeil-de-tigre-1.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Oeil de Tigre" - <b>179€</b></p>
+          <ul>
+            <li>Argent 925 massif</li>
+            <li>Pierre : Oeil de tigre naturelle</li>
+            <li>Largeur : 8 mm</li>
+            <li>Taille ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://a79ca27e.delivery.rocketcdn.me/wp-content/uploads/2024/06/bague-homme-argent-2.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Modernité" - <b>149€</b></p>
+          <ul>
+            <li>Argent 925 rhodié</li>
+            <li>Design contemporain</li>
+            <li>Poids : 12 g</li>
+            <li>Largeur : 6 mm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://soandso.fr/2517-large_default/bague-magma-homme-argent-oxyde.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Magma" - <b>165€</b></p>
+          <ul>
+            <li>Argent oxydé 925</li>
+            <li>Effet lave volcanique</li>
+            <li>Largeur : 10 mm</li>
+            <li>Finition mate</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://itsara.net/cdn/shop/products/bague-homme-en-argent-ethnique-n027p1_Itsara_bijoux_2048x.jpg?v=1737535078" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague ethnique "Tribal" - <b>199€</b></p>
+          <ul>
+            <li>Argent 925 massif</li>
+            <li>Motifs traditionnels</li>
+            <li>Poids : 15 g</li>
+            <li>Largeur : 12 mm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.shutterstock.com/image-photo/elegantly-dressed-businessman-man-jewelry-600nw-2372589101.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Executive" - <b>350€</b></p>
+          <ul>
+            <li>Or blanc 18 carats</li>
+            <li>Style élégant et discret</li>
+            <li>Largeur : 5 mm</li>
+            <li>Finition brillante</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw1692d06d/images/FQHHJW0133-model1.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Royal" - <b>1250€</b></p>
+          <ul>
+            <li>Or jaune 18 carats</li>
+            <li>Pavé de diamants</li>
+            <li>Largeur : 7 mm</li>
+            <li>Poids : 8,5 g</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#homme" class="bouton">Retour à la collection Homme</a>
+  </div>
+</section>
+
+  <!-- Catégorie Femme -->
+<section id="femme" class="page" style="display:none;">
+  <div class="bandeau">
+    <h2>Collection Femme</h2>
+  </div>
+  <div class="corps">
+    <div class="sous-categories">
+      <a href="#femme-colliers" class="bouton">Colliers</a>
+      <a href="#femme-bracelets" class="bouton">Bracelets</a>
+      <a href="#femme-bagues" class="bouton">Bagues</a>
+    </div>
+    <div class="notification">
+      <p>💖 Nouveauté : Collection "Élégance" disponible en exclusivité</p>
+    </div>
+    <a href="#page1" class="bouton">Retour à l'accueil</a>
+  </div>
+</section>
+
+<!-- Colliers Femme -->
+<section id="femme-colliers" class="page" style="display:none;">
+  <div class="bandeau"><h2>Colliers Femme</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw7ea4319c/images/13280003361-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Trèfle" en or blanc - <b>290€</b></p>
+          <ul>
+            <li>Or jaune 21 carats</li>
+            <li>Longueur : 45 cm</li>
+            <li>Motifs trèfles</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwa83fddff/images/13280066929-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Princesse" or rose - <b>950€</b></p>
+          <ul>
+            <li>Or rose 18 carats</li>
+            <li>Longueur : 42 cm</li>
+            <li>Sertissage diamants 0.25ct</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw954b2fb8/images/50280112703-model0_HO.jpg?sw=474&sh=474" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Élégance" - <b>780€</b></p>
+          <ul>
+            <li>Argent sterling 925</li>
+            <li>Longueur : 40 cm</li>
+            <li>Poids : 4.2 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwe692d062/images/13260190491-model1_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Goutte" argent - <b>350€</b></p>
+          <ul>
+            <li>Argent 925 rhodié</li>
+            <li>Pendentif 2 gouttes</li>
+            <li>Longueur : 42 cm</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.luzaka.com/media/mf_webp/jpg/media/catalog/product/cache/05568626fa4fa022cd62bfc5abe23d37/_/7/_72783_9.webp" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Perles de Luxe" - <b>1150€</b></p>
+          <ul>
+            <li>Perles blanches AAA</li>
+            <li>Or jaune 18 carats</li>
+            <li>Longueur : 43 cm</li>
+            <li>Fermoir à verrou sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw56bd872a/images/50280112874-model0_HO.jpg?sw=474&sh=474" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Chaîne d'argent" - <b>420€</b></p>
+          <ul>
+            <li>Argent 925 et zircones</li>
+            <li>Longueur : 45 cm</li>
+            <li>Chaîne maille vénitienne</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#femme" class="bouton">Retour à la collection Femme</a>
+  </div>
+</section>
+
+<!-- Bracelets Femme -->
+<section id="femme-bracelets" class="page" style="display:none;">
+  <div class="bandeau"><h2>Bracelets Femme</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://lapetitetribu-bijoux.com/11082-large_default/bracelet-plaque-or-cercle.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Cercle Doré" - <b>129€</b></p>
+          <ul>
+            <li>Plaqué or 3 microns</li>
+            <li>Forme circulaire</li>
+            <li>Largeur : 6 mm</li>
+            <li>Fermoir ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.luckyonebijoux.com/wp-contdog/uploads/2022/12/bracelet-jonc-rectangle-or-jaune-femme-bijoux.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Rectangle" - <b>890€</b></p>
+          <ul>
+            <li>Or jaune 18 carats</li>
+            <li>Forme géométrique</li>
+            <li>Largeur : 8 mm</li>
+            <li>Poids : 12 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.luckyonebijoux.com/wp-contdog/uploads/2021/04/bracelet-luxe-or-18-carats-lucky-one-bijoux.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Luxe" - <b>1250€</b></p>
+          <ul>
+            <li>Or 18 carats</li>
+            <li>Finition polie miroir</li>
+            <li>Largeur : 5 mm</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.luckyonebijoux.com/wp-contdog/uploads/2023/03/bracelet-jonc-noeud-or-bijoux-femme.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Nœud" - <b>950€</b></p>
+          <ul>
+            <li>Or 18 carats</li>
+            <li>Motif nœud central</li>
+            <li>Diamètre : 6 cm</li>
+            <li>Poids : 8 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.luckyonebijoux.com/wp-contdog/uploads/2022/06/bracelet-diamant-femme-jonc-joaillerie-luxe.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Diamant" - <b>1850€</b></p>
+          <ul>
+            <li>Or blanc 18 carats</li>
+            <li>8 diamants taille brillant</li>
+            <li>Largeur : 4 mm</li>
+            <li>Poids : 6.5 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.luckyonebijoux.com/wp-contdog/uploads/2021/12/bracelet-or-jaune-luxe-femme-lucky-one-bijoux.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Classique" - <b>1100€</b></p>
+          <ul>
+            <li>Or jaune 18 carats</li>
+            <li>Design intemporel</li>
+            <li>Largeur : 7 mm</li>
+            <li>Fermoir à vis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#femme" class="bouton">Retour à la collection Femme</a>
+  </div>
+</section>
+
+<!-- Bagues Femme -->
+<section id="femme-bagues" class="page" style="display:none;">
+  <div class="bandeau"><h2>Bagues Femme</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw85959ec0/images/13640202790-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Étincelante" or blanc - <b>1150€</b></p>
+          <ul>
+            <li>Or blanc 18 carats</li>
+            <li>Largeur : 3 mm</li>
+            <li>Poids : 4.2 g</li>
+            <li>Finition brillante</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwc0853bfc/images/40680190206-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Cercle doré" or jaune - <b>980€</b></p>
+          <ul>
+            <li>Or jaune 14 carats</li>
+            <li>Largeur : 4 mm</li>
+            <li>Poids : 5.5 g</li>
+            <li>Ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwed3a93a2/images/13640082449-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Romantique" or rose - <b>1050€</b></p>
+          <ul>
+            <li>Or rose 18 carats</li>
+            <li>Largeur : 3.5 mm</li>
+            <li>Poids : 4.8 g</li>
+            <li>Ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw721fb283/images/13630081959-model1_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Modernité" or jaune - <b>1290€</b></p>
+          <ul>
+            <li>Or jaune 18 carats</li>
+            <li>Largeur : 5 mm</li>
+            <li>Poids : 6.1 g</li>
+            <li>Ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw7a019194/images/13660075335-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Contemporaine" or jaune - <b>1120€</b></p>
+          <ul>
+            <li>Or jaune 18 carats</li>
+            <li>Largeur : 6 mm</li>
+            <li>Poids : 7.3 g</li>
+            <li>Ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwef9c82c1/images/13710202058-model0_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Soirée" or blanc - <b>1450€</b></p>
+          <ul>
+            <li>Or blanc 18 carats</li>
+            <li>Largeur : 4.5 mm</li>
+            <li>Poids : 5.9 g</li>
+            <li>Ajustable</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#femme" class="bouton">Retour à la collection Femme</a>
+  </div>
+</section>
+
+  <!-- Catégorie Enfant -->
+<section id="enfant" class="page" style="display:none;">
+  <div class="bandeau">
+    <h2>Collection Enfant</h2>
+  </div>
+  <div class="corps">
+    <div class="sous-categories">
+      <a href="#enfant-colliers" class="bouton">Colliers</a>
+      <a href="#enfant-bracelets" class="bouton">Bracelets</a>
+      <a href="#enfant-bagues" class="bouton">Bagues</a>
+    </div>
+    <div class="notification">
+      <p>👶 Tous nos bijoux enfant sont hypoallergéniques et adaptés aux peaux sensibles</p>
+    </div>
+    <a href="#page1" class="bouton">Retour à l'accueil</a>
+  </div>
+</section>
+
+<!-- Colliers Enfant -->
+<section id="enfant-colliers" class="page" style="display:none;">
+  <div class="bandeau"><h2>Colliers Enfant</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw94071c42/images/B3CEJZW001-master.jpg?sw=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Cœur Ajouré" - <b>49€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Pendentif cœur ajouré</li>
+            <li>Longueur : 36-40 cm</li>
+            <li>Hypoallergénique</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwa8c647ff/images/13280065794-view2_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Élégance" - <b>39€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Chaîne fine simple</li>
+            <li>Longueur : 36-40 cm</li>
+            <li>Résistant à l'eau</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwbd583366/images/13280073923-view2_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Corail" - <b>59€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Perles de corail naturelles</li>
+            <li>Longueur : 36-40 cm</li>
+            <li>Poids : 8 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw2d1c3ce2/images/13280073893-view2_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Perles Blanches" - <b>55€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Perles blanches nacrées</li>
+            <li>Longueur : 36-40 cm</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwf346f710/images/13260073778-view2_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Cœur Diamant" - <b>89€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Cœur avec zircones</li>
+            <li>Longueur : 36-40 cm</li>
+            <li>Poids : 10 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw2b1e45d7/images/13270073770-view2_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Collier "Ange" - <b>65€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Pendentif ange</li>
+            <li>Longueur : 36-40 cm</li>
+            <li>Idéal baptême</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#enfant" class="bouton">Retour à la collection Enfant</a>
+  </div>
+</section>
+
+<!-- Bracelets Enfant -->
+<section id="enfant-bracelets" class="page" style="display:none;">
+  <div class="bandeau"><h2>Bracelets Enfant</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwdde2d9f3/images/FABFBW01CD-master.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Croix" - <b>45€</b></p>
+          <ul>
+            <li>Acier inoxydable argenté</li>
+            <li>Pendentif croix</li>
+            <li>Longueur : 14-16 cm</li>
+            <li>Idéal communion</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw6ffb1bab/images/B3BEJW0581-master.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Doux" - <b>35€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Chaîne fine simple</li>
+            <li>Longueur : 14-16 cm</li>
+            <li>Poids : 5 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw65ed1ed6/images/B3IEJW0527-master.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Croix Dorée" - <b>55€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Croix et perles dorées</li>
+            <li>Longueur : 14-16 cm</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw7d066665/images/13480062915-master_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Petite Chérie" - <b>49€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Médaille gravée</li>
+            <li>Longueur : 14-16 cm</li>
+            <li>Poids : 6 g</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dw6a240cd2/images/13480057721-master_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Maman" - <b>59€</b></p>
+          <ul>
+            <li>Acier inoxydable doré</li>
+            <li>Médaille mère-enfant</li>
+            <li>Longueur : 14-16 cm</li>
+            <li>Fermoir sécurisé</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.histoiredor.com/dw/image/v2/BCQS_PRD/on/demandware.static/-/Sites-THOM_CATALOG/default/dwe93a3ab5/images/13480063984-master_HO.jpg?sw=1024&sh=1024" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bracelet "Perles Dorées" - <b>75€</b></p>
+          <ul>
+            <li>Or rose 9 carats</li>
+            <li>Perles dorées</li>
+            <li>Longueur : 14-16 cm</li>
+            <li>Poids : 7 g</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#enfant" class="bouton">Retour à la collection Enfant</a>
+  </div>
+</section>
+
+<!-- Bagues Enfant -->
+<section id="enfant-bagues" class="page" style="display:none;">
+  <div class="bandeau"><h2>Bagues Enfant</h2></div>
+  <div class="corps">
+    <div class="bijoux-grid">
+      <div class="photo">
+        <img src="https://www.lecrindor.com/32406-large_default/laska.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Cœur Rouge" - <b>79€</b></p>
+          <ul>
+            <li>Or jaune 9 carats</li>
+            <li>Cœur laqué rouge</li>
+            <li>Largeur : 2 mm</li>
+            <li>Taille ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.terredebijoux.com/media/catalog/product/cache/4/image/650x/040ec09b1e35df139433887a97daa66f/b/a/bague-enfant-etoile-plaque-pr000191.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Étoile Rose" - <b>45€</b></p>
+          <ul>
+            <li>Plaqué or</li>
+            <li>Étoile laquée rose</li>
+            <li>Largeur : 2 mm</li>
+            <li>Taille ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://media.cdnws.com/_i/140124/573904/2072/8/k3358.jpeg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Papillon" - <b>85€</b></p>
+          <ul>
+            <li>Or rose 9 carats</li>
+            <li>Motif papillon</li>
+            <li>Largeur : 3 mm</li>
+            <li>Tailles 42-48</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://www.planetys.com/3705-large_default/bague-fleur-enfant-argent-925-1000-email-multicolore.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Fleur Colorée" - <b>65€</b></p>
+          <ul>
+            <li>Argent 925</li>
+            <li>Fleur émaillée</li>
+            <li>Largeur : 4 mm</li>
+            <li>Tailles 42-48</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://hdvern.fr/wp-content/uploads/2022/04/337830R-hdvern.webp" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Cœur Violet" - <b>55€</b></p>
+          <ul>
+            <li>Argent 925</li>
+            <li>Cœur laqué violet</li>
+            <li>Largeur : 2 mm</li>
+            <li>Taille ajustable</li>
+          </ul>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="https://lyn-et-or-bijoux.com/17336-medium_default/bague-coeur-brillant-en-zircon-pour-femme-jolly.jpg" class="toggle-desc"/>
+        <div class="description" style="display:none;">
+          <p>Bague "Cœur Brillant" - <b>95€</b></p>
+          <ul>
+            <li>Argent 925</li>
+            <li>Cœur avec zircones</li>
+            <li>Largeur : 3 mm</li>
+            <li>Tailles 42-48</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="#enfant" class="bouton">Retour à la collection Enfant</a>
+  </div>
+</section>
+
+  <!-- Notre histoire -->
+  <section id="histoire" class="page" style="display:none;">
+    <div class="bandeau"><h2>Notre histoire</h2></div>
+    <div class="corps">
+      <div class="histoire-content">
+        <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Atelier Topaze">
+        <div class="histoire-text">
+          <h3>Depuis 2014</h3>
+          <p>Fondée à Paris en 2014, notre maison crée des bijoux d'exception depuis quelques années. C'est dans un petit atelier parisien, niché au cœur du Marais, que tout a commencé. Manon, Cléia, Ken, Jules et Alice, cinq passionnés de joaillerie et d'artisanat, se sont rencontrés lors d'un marché de créateurs. Partageant une même vision – celle de créer des bijoux qui ne se contentent pas d'être beaux, mais qui portent aussi une énergie positive –, ils ont décidé d'unir leurs talents pour fonder Topaze.
+          <p>Le nom n'a pas été choisi au hasard. La topaze impériale, pierre rare aux reflets dorés et orangés, est réputée pour apporter vitalité, confiance en soi et créativité à ceux qui la portent. C'est exactement l'esprit que l'équipe a voulu insuffler dans chaque création : des bijoux élégants, intemporels, mais aussi chargés d'une énergie unique.</p>
+          <p>Chez Topaze, nous croyons qu'un bijou ne se limite pas à un accessoire : c'est un talisman, une source de force et d'épanouissement. Que ce soit pour un cadeau symbolique, un événement spécial ou simplement pour s'offrir un peu de lumière au quotidien, nos créations sont pensées pour vous accompagner en toute élégance.
+
+Aujourd'hui, Topaze grandit, mais notre philosophie reste la même : allier beauté, énergie et éthique, une pierre précieuse à la fois.</p>
+        </div>
+      </div>
+      <a href="#page1" class="bouton">Retour à l'accueil</a>
+    </div>
+  </section>
+
+  <!-- Nous contacter -->
+  <section id="contact" class="page" style="display:none;">
+    <div class="bandeau"><h2>Nous contacter</h2></div>
+    <div class="corps">
+      <form class="contact-form">
+        <label>Nom : <input type="text" name="nom" required></label><br>
+        <label>Email : <input type="email" name="email" required></label><br>
+        <label>Message :<br>
+          <textarea name="message" rows="5" required></textarea>
+        </label><br>
+        <button type="submit" class="bouton">Envoyer</button>
+      </form>
+      <div class="connexion-zone">
+        <p>Vous avez un compte ? <a href="#login" class="nav-btn">Connectez-vous !</a></p>
+      </div>
+      <a href="#page1" class="bouton">Retour à l'accueil</a>
+    </div>
+  </section>
+
+  <!-- Connexion -->
+  <section id="login" class="page" style="display:none;">
+    <div class="bandeau"><h2>Connexion</h2></div>
+    <div class="corps">
+      <form id="login-form">
+        <label>Prénom : <input type="text" name="prenom" required></label><br>
+        <label>Email : <input type="email" name="email" required></label><br>
+        <label>Mot de passe : <input type="password" name="password" required></label><br>
+        <button type="submit" class="bouton">Connexion</button>
+      </form>
+      <a href="#page1" class="bouton">Retour à l'accueil</a>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Navigation
+      function showPage(hash) {
+        if (!hash || !document.querySelector(hash)) hash = "#page1";
+        document.querySelectorAll("section.page").forEach(section => section.style.display = "none");
+        const page = document.querySelector(hash);
+        if (page) page.style.display = "flex";
+        window.scrollTo(0, 0);
+      }
+      
+      document.body.addEventListener('click', function(e) {
+        let target = e.target;
+        while (target && target.tagName !== 'A' && target !== document.body) target = target.parentNode;
+        if (target && target.tagName === 'A' && target.getAttribute('href') && target.getAttribute('href').startsWith('#')) {
+          e.preventDefault();
+          const hash = target.getAttribute('href');
+          window.location.hash = hash;
+          showPage(hash);
+        }
+      });
+      
+      window.addEventListener("hashchange", function() {
+        showPage(window.location.hash);
+      });
+      showPage(window.location.hash);
+
+      // Affichage des descriptions
+      document.body.addEventListener('click', function(e){
+        if(e.target.classList.contains('toggle-desc')) {
+          const desc = e.target.parentNode.querySelector('.description');
+          if(desc) desc.style.display = (desc.style.display === "none" || !desc.style.display) ? "block" : "none";
+        }
+      });
+
+      // Connexion
+      document.getElementById('login-form')?.addEventListener('submit', function(e){
+        e.preventDefault();
+        const prenom = this.prenom.value.trim();
+        if(prenom) {
+          document.getElementById('user-icon').innerHTML = `
+            <span class="user-initial">${prenom[0].toUpperCase()}</span>
+            <button id="logout-btn" title="Déconnexion">&#10006;</button>
+          `;
+          document.getElementById('user-icon').style.display = "flex";
+          window.location.hash = "#page1";
+          showPage("#page1");
+        }
+      });
+
+      // Déconnexion
+      document.getElementById('user-icon').addEventListener('click', function(e){
+        if(e.target.id === 'logout-btn'){
+          document.getElementById('user-icon').style.display = "none";
+        }
+      });
+
+      // Barre de recherche
+      document.getElementById('searchInput').addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase();
+        if(searchTerm.length > 2) {
+          // Implémentez ici la logique de recherche
+          console.log("Recherche :", searchTerm);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
